@@ -7,7 +7,7 @@ Jakub Kanclerz
 
 ## RabbitMQ + python (Hello World)
 
-- utworzenie wirtualnego środowiska pythona (uekansible)
+- utworzenie wirtualnego środowiska pythona (uekpython27)
 - instalacja niezbędnego oprogramowania
 - wykanie ćwiczeń
 
