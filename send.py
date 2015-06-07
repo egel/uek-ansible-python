@@ -9,10 +9,12 @@ cn = pika.BlockingConnection(
 channel = cn.channel()
 channel.queue_declare(queue='hello')
 
-msg = ''.join(sys.argv[1:])
+msg = ' '.join(sys.argv[1:])
 
 channel.basic_publish(
   exchange='',
   routing_key='hello',
   body=msg
 )
+
+cn.close() # connection close
