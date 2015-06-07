@@ -13,6 +13,6 @@ msg = ''.join(sys.argv[1:])
 
 channel.basic_publish(
   exchange='',
-  body=msg,
-  routing_key='hello'
+  routing_key='hello',
+  body=msg
 )
